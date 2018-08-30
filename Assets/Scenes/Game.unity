@@ -413,7 +413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Horizontal: 0
   Vertical: 0
-  PlayerSpeed: 5
+  PlayerSpeed: 7
 --- !u!65 &1210916451
 BoxCollider:
   m_ObjectHideFlags: 0

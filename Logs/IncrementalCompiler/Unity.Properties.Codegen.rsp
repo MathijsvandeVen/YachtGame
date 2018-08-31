@@ -2,10 +2,10 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:"D:/Unity Game/YachtGame/Temp/Unity.Properties.Codegen.dll"
+-out:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Temp/Unity.Properties.Codegen.dll
 -nostdlib
 -unsafe
--r:"D:/Unity Game/YachtGame/Library/ScriptAssemblies/Unity.Properties.dll"
+-r:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Library/ScriptAssemblies/Unity.Properties.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -85,16 +85,17 @@
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
@@ -220,7 +221,7 @@
 -d:UNITY_2017_4_OR_NEWER
 -d:UNITY_2018_1_OR_NEWER
 -d:UNITY_2018_2_OR_NEWER
--d:UNITY_2018_2_0
+-d:UNITY_2018_2_5
 -d:UNITY_2018_2
 -d:UNITY_2018
 -d:PLATFORM_ARCH_64
@@ -308,11 +309,11 @@
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
 -d:ENABLE_VSTU
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/CSharp/CodeWriter.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/CSharp/CSharpSchemaBuilder.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/ISchemaBuilder.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/Schema.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/SchemaImporter.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/SchemaObject.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/SchemaObjectEditor.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/CSharp/CodeWriter.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/CSharp/CSharpSchemaBuilder.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/ISchemaBuilder.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/Schema.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/SchemaImporter.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/SchemaObject.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Unity.Properties.Codegen/SchemaObjectEditor.cs
 -v:0

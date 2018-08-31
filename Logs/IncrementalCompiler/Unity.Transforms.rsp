@@ -2,15 +2,15 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:"D:/Unity Game/YachtGame/Temp/Unity.Transforms.dll"
+-out:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Temp/Unity.Transforms.dll
 -nostdlib
 -unsafe
--r:"D:/Unity Game/YachtGame/Library/ScriptAssemblies/Unity.Entities.dll"
--r:"D:/Unity Game/YachtGame/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll"
--r:"D:/Unity Game/YachtGame/Library/ScriptAssemblies/Unity.Collections.dll"
--r:"D:/Unity Game/YachtGame/Library/ScriptAssemblies/Unity.Burst.dll"
--r:"D:/Unity Game/YachtGame/Library/ScriptAssemblies/Unity.Jobs.dll"
--r:"D:/Unity Game/YachtGame/Library/ScriptAssemblies/Unity.Mathematics.dll"
+-r:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Library/ScriptAssemblies/Unity.Entities.dll
+-r:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
+-r:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Library/ScriptAssemblies/Unity.Collections.dll
+-r:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Library/ScriptAssemblies/Unity.Burst.dll
+-r:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:C:/Users/XJ/Documents/Werk/Asssignment/YachtGame/YachtGameMaster/Library/ScriptAssemblies/Unity.Mathematics.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -37,6 +37,7 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
@@ -88,16 +89,17 @@
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
--r:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
@@ -223,7 +225,7 @@
 -d:UNITY_2017_4_OR_NEWER
 -d:UNITY_2018_1_OR_NEWER
 -d:UNITY_2018_2_OR_NEWER
--d:UNITY_2018_2_0
+-d:UNITY_2018_2_5
 -d:UNITY_2018_2
 -d:UNITY_2018
 -d:PLATFORM_ARCH_64
@@ -311,12 +313,12 @@
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
 -d:ENABLE_VSTU
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/AttachComponent.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/AttachedComponent.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/CustomLocalToWorldComponent.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/PositionComponent.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/RotationComponent.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/ScaleComponent.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/StaticComponent.cs
--i:C:/Users/s151897/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/TransformSystem.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/AttachComponent.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/AttachedComponent.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/CustomLocalToWorldComponent.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/PositionComponent.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/RotationComponent.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/ScaleComponent.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/StaticComponent.cs
+-i:C:/Users/XJ/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.11/Unity.Transforms/TransformSystem.cs
 -v:0
